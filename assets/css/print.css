@@ -1,0 +1,45 @@
+*{ outline:none;}
+#wrapper {
+	width:600px;
+	height:auto;
+	float:left;
+	margin-left:10px;
+	border:0px solid #000;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	
+}
+
+
+#slider1 {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	overflow: hidden;
+	height: auto;
+}
+
+#slider1 li {
+	padding: 0;
+	margin: 0;
+	zoom:1;
+}
+
+#slider1 img,
+#slider2 img {
+	float: left;
+}
+.custom-pager
+{
+		padding-right:100px;
+}
+.custom-pager #example .bx-pager a img {
+	border: solid #fff	 3px; height:100px;
+}
+
+
+.custom-pager #example .bx-pager .pager-active img,
+.custom-pager #example .bx-pager a:hover img {
+	border: solid #ccc 3px;
+}

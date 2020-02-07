@@ -1,0 +1,74 @@
+/* 
+    Document   : DT_bootstrap
+    Created on : 28 Feb, 2012, 11:33:59 AM
+    Author     : selvam
+    Description:
+        Purpose of the stylesheet follows.
+css written for datatables adaptable to bootstrap
+*/
+
+
+div.dataTables_length label {
+	float: left;
+	text-align: left;    
+        vertical-align: middle !important;
+}
+
+div.dataTables_length select {
+	width: 50px;
+        float:left;
+        margin-right:5px;
+}
+
+div.dataTables_filter label {
+	float: right;
+}
+
+div.dataTables_info {
+	padding-top: 8px;
+        float:left;
+}
+
+div.dataTables_paginate {
+	float: right;
+	margin: 0;
+}
+
+table.table {
+	clear: both;
+	margin-bottom: 6px !important;
+}
+
+table.dataTable th:active {
+	outline: none;
+}
+
+.DataTables_sort_icon{
+    float:left;
+    margin:0 4px 0 4px;
+}
+
+table.dataTable thead th{
+    	cursor: pointer !important;
+	*cursor: hand;
+        text-transform:capitalize;
+}
+
+
+.dataTables_processing{
+    font-weight: bold;
+    background: #49AFCD;
+    color:#fff;
+    text-align:center;
+    z-index: 9999;
+    margin:0 auto;
+    width:300px;
+    padding:5px;
+}
+
+.dataTables_empty{
+    text-align: center !important;
+    font-weight:bold;
+    color: #555555;
+    background: #ffe !important;
+}

@@ -1,0 +1,64 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 08/09/2016 20:26
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-arrow:before { content: "\f100"; }
+.flaticon-ball-of-yarn:before { content: "\f101"; }
+.flaticon-button:before { content: "\f102"; }
+.flaticon-circle:before { content: "\f103"; }
+.flaticon-coins:before { content: "\f104"; }
+.flaticon-hanger:before { content: "\f105"; }
+.flaticon-patch:before { content: "\f106"; }
+.flaticon-signs:before { content: "\f107"; }
+.flaticon-signs-1:before { content: "\f108"; }
+.flaticon-signs-10:before { content: "\f109"; }
+.flaticon-signs-11:before { content: "\f10a"; }
+.flaticon-signs-12:before { content: "\f10b"; }
+.flaticon-signs-13:before { content: "\f10c"; }
+.flaticon-signs-14:before { content: "\f10d"; }
+.flaticon-signs-15:before { content: "\f10e"; }
+.flaticon-signs-16:before { content: "\f10f"; }
+.flaticon-signs-17:before { content: "\f110"; }
+.flaticon-signs-18:before { content: "\f111"; }
+.flaticon-signs-19:before { content: "\f112"; }
+.flaticon-signs-2:before { content: "\f113"; }
+.flaticon-signs-20:before { content: "\f114"; }
+.flaticon-signs-21:before { content: "\f115"; }
+.flaticon-signs-22:before { content: "\f116"; }
+.flaticon-signs-23:before { content: "\f117"; }
+.flaticon-signs-24:before { content: "\f118"; }
+.flaticon-signs-25:before { content: "\f119"; }
+.flaticon-signs-26:before { content: "\f11a"; }
+.flaticon-signs-3:before { content: "\f11b"; }
+.flaticon-signs-4:before { content: "\f11c"; }
+.flaticon-signs-5:before { content: "\f11d"; }
+.flaticon-signs-6:before { content: "\f11e"; }
+.flaticon-signs-7:before { content: "\f11f"; }
+.flaticon-signs-8:before { content: "\f120"; }
+.flaticon-signs-9:before { content: "\f121"; }
+.flaticon-time:before { content: "\f122"; }

@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'bentonsans-bold';
+	src:url('./fonts/BentonSans Bold.otf') format('woff');
+	/*src:url('../fonts/myriad-set-pro_semibold.woff') format('woff'),
+		url('../fonts/myriad-set-pro_text.woff') format('woff'),
+		url('../fonts/myriad-set-pro_thin.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;*/
+}

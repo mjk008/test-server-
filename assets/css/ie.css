@@ -1,0 +1,14 @@
+ul.pagination li{
+    float:left !important;
+}
+ul.pagination li a{
+    font-size:0;
+}
+
+.homerow h2{
+    width:435px;
+}
+
+.pageheading img{
+    margin-top:-25px;
+}

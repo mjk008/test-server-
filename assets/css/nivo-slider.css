@@ -1,0 +1,184 @@
+
+.nivoSlider {
+	position:relative;border:0px solid #000;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:99;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:50;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:89;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:92%;
+	z-index:99;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+
+
+
+.nivo-controlNav a {
+	position:relative;
+	z-index:99;
+	cursor:pointer;
+	
+	
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+#wrapper {
+		margin:0 auto;  width:930px ;height: 394px;background:url(../images/banner-bg.jpg) no-repeat center  center;
+}
+
+.nivoSlider {
+	width:918px;
+	position:relative;
+	/*z-index:0;*/
+	margin:0px auto;
+	background:#fff url(../images/loading.gif) no-repeat 50% 50%;
+	height:394px;
+	
+	
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	/*z-index:0;*/
+	
+}
+.nivoSlider a {
+	border:0;
+}
+
+
+.nivo-directionNav a {
+	display:block;
+	width:21px;
+	height:21px;
+	background:url(../images/arrows.png) no-repeat 0px -21px ;
+	text-indent:-9999px;
+	border:0;
+	
+}
+
+.nivo-directionNav a:hover {
+	background:url(../images/arrows.png) no-repeat top left;
+	
+}
+a.nivo-nextNav {
+	background-position:-21px -21px;
+	right:10px;
+}
+
+a.nivo-nextNav:hover  {
+	background-position:-21px -0px;
+	right:10px;
+}
+a.nivo-prevNav {
+	left:10px;
+	
+}
+
+a.nivo-prevNav:hover {
+	left:10px;
+	background-position:-0px -0px;
+	
+}
+
+#slider1 .nivo-controlNav,
+#slider2 .nivo-controlNav,
+#slider3 .nivo-controlNav {
+	position:absolute;
+	left:47.5%;
+	top:92%;
+	bottom:30px;
+        margin-left:-50px;
+}
+#slider1 .nivo-controlNav a,
+#slider2 .nivo-controlNav a,
+#slider3 .nivo-controlNav a {
+	display:block;
+	width:13px;
+	height:13px;
+	background:url(../images/bullets.png) no-repeat 0px -13px;
+	text-indent:-9999px;
+	border:0;
+	margin-right:5px;
+	float:left;
+	
+}
+
+#slider1 .nivo-controlNav a:hover,
+#slider2 .nivo-controlNav a:hover,
+#slider3 .nivo-controlNav a:hover {
+
+background:url(../images/bullets.png) no-repeat top left;	
+	
+}
+
+
+#slider1 .nivo-controlNav a.active,
+#slider2 .nivo-controlNav a.active,
+#slider3 .nivo-controlNav a.active {
+
+background:url(../images/bullets.png) no-repeat top left;	
+	
+}

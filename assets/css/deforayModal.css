@@ -1,0 +1,35 @@
+#mbox{
+    background-color:#fff; 
+    padding:0; 
+    border:1px outset #666; 
+    z-index:9999 !important;
+}
+#mbm{
+    font-family:sans-serif;
+    font-weight:bold;
+    float:right;
+    padding-bottom:5px;
+}
+#ol{
+    /*background-image: url(../images/modal/overlay.png); */
+    width:100%;
+    height:100%;
+}
+.dialog {
+    display:none
+}
+
+* html #ol{
+    background-image:none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/modal/overlay.png", sizingMethod="scale");
+}
+
+.closeModal{
+    background: url("../images/modal/close.png") no-repeat;
+    width:31px;
+    height:34px;
+    cursor: pointer;
+    position: absolute;
+    right:-10px;
+    top:-10px;
+}

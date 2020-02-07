@@ -1,0 +1,56 @@
+
+.notifier{
+    width:100%;
+    position:fixed;
+    height:20px;
+    background: #555;
+    color: #eff;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    padding:10px;
+    z-index:9999;
+}
+
+.err{
+    width:100%;
+    position:fixed;
+    height:20px;
+    background: #D54E21;
+    color: #fff;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    padding:10px;
+    z-index:9999;
+}
+
+.success{
+    width:100%;
+    position:fixed;
+    height:20px;
+    background: #66cc00;
+    color: #006505;
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    padding:10px;
+    z-index:9999;
+}
+
+.heading2, .hero-unit legend{
+    border-radius: 5px;
+    background: #606060;
+    color: white;
+    padding: 0.3em 0.45em 0.45em;
+}
+
+.center{
+    text-align:center !important;
+}
+
+.pageheading{
+    float:left;
+    width:100%;
+    clear:both !important;
+}

@@ -1,0 +1,108 @@
+.ui-tabs { position: relative; padding: .0em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .0em .0em 0; }
+.ui-tabs .ui-tabs-nav li { 
+    background:none;
+    list-style: none;
+    float: left;
+    position: relative; 
+    top: 1px; 
+    margin:13px 0px 0px 0px; 
+    border-bottom: 0 !important; 
+    padding: 0; 
+    white-space: nowrap; 
+}
+
+.ui-tabs .ui-tabs-nav li a span{ font:bold 12px verdana,Arial, Helvetica, sans-serif;  } 
+.ui-tabs .ui-tabs-nav li a { float: left; padding: 10px 0px; text-decoration: none; font:bold 12px Arial, Helvetica, sans-serif; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0 !important; padding-bottom: 1px !important; background:#fff url(../images/product-tabs/ui-highlight-bg.jpg) repeat-x !important; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text !important; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer !important; } 
+.ui-tabs-nav li.ui-tabs-selected a span{ color:red !important; } 
+/* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+
+/* Component containers
+----------------------------------*/
+
+.ui-tabs .ui-widget .ui-widget { 
+    font-size: 1em; 
+}
+.ui-tabs .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { 
+    font-family: Verdana,Arial,sans-serif; 
+    font-size: 2em; 
+}
+.ui-tabs .ui-widget-content { 
+    border: 0px solid #aaaaaa;
+    background: #ffffff url(../images/product-tabs/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+    color: #706B6B;
+    min-height:200px;
+}
+
+
+.ui-tabs .ui-widget-content a { color:#706B6B; }
+.ui-tabs .ui-widget-header { 
+    width:700px; 
+    border: 0px solid #aaaaaa; 
+    background: #fff url(../images/product-tabs/tab-header-bg.jpg) no-repeat center bottom !important ;
+    height:52px;
+}
+.ui-tabs .ui-widget-header a { color: #222222; width:135px; text-align:center; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,.ui-tabs .ui-widget-content .ui-state-default,.ui-tabs .ui-widget-header .ui-state-default {
+    border:0 solid #d3d3d3 !important; 
+    background: none url(../images/product-tabs/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x !important;
+    font-weight: 400 !important; 
+    color:#555 !important 
+}
+
+.ui-tabs .ui-state-default a,.ui-tabs .ui-state-default a:link,.ui-tabs .ui-state-default a:visited {
+    color: #555 !important; 
+    text-decoration:none !important 
+}
+
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus {
+    border: 0 solid #999 !important; 
+    background: #dadada !important;
+    font-weight:400 !important; 
+    color:#212121 !important; 
+    height:24px !important; 
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing
+a{
+    background : none !important;
+    margin:0;
+    margin-top:2px;
+}
+.ui-state-hover a,.ui-state-hover a:hover {
+    color: #212121 !important; 
+    text-decoration:none !important;
+    height:26px !important; 
+    margin:0;
+}
+
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active {
+    border:0px solid #e4e4e4  !important; 
+    background:#fff url(../images/product-tabs/ui-highlight-bg.jpg) 50% 50% repeat-x !important;
+    font-weight: 400 !important;
+    color: #c00  !important; 
+    height:40px !important;
+}
+
+ui-state-default ui-corner-top ui-tabs-selected ui-state-active {
+    font-weight:700 !important; 
+    color:red !important 
+}
+
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited {
+    color:#fff !important; 
+    text-decoration:none !important
+}
+
+.ui-widget :active {
+    outline:none !important;  }
+
+
+
